@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en-PK">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- links -->
+       <link rel="stylesheet" href="src/input.css">
+       <link rel="stylesheet" href="src/output.css">
+       <link rel="icon" href="src/public/icons/icon.svg" style="width: 16px;;" />
+
+     <!-- title -->
+    <title>AnimeHub free anime streaming website</title>
+    
+</head>
+<body>
+
+   <!-- Header  -->
+     <header role="header">
+      <!-- Navbar -->
+      <nav class="sticky top-0 z-50 bg-dark/90 backdrop-blur border-b border-white/10">
+         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+              <!-- website name   -->
+           <h1 class="text-2xl font-bold text-brand">AnimeHub</h1>
+
+              <!-- searchbar -->
+           <input 
+                role="Searchbar"
+                type="text" 
+                id="search_input"
+                placeholder="Search anime..."
+                class="w-full md:w-1/2 p-3 rounded-lg 
+                bg-slate-800 text-white 
+                outline-none 
+                focus:ring-2 focus:ring-[#ffa31a]
+              focus:border-[#ffa31a]
+               transition"
+            />
+
+              <!-- nav links -->
+           <ul class="hidden md:flex gap-6 text-sm">
+              <li class="hover:text-brand cursor-pointer">
+                 <a href="index.html">Home</a>
+              </li>
+              <li class="hover:text-brand cursor-pointer">
+                 <a href="popular.html">Popular</a>
+              </li>
+              <li class="hover:text-brand cursor-pointer">
+                 <a href="genres.html">Genres</a>
+              </li>
+              <li class="hover:text-brand cursor-pointer">
+                 <a href="new.html">New Anime</a>
+              </li>
+           </ul>
+
+              <!-- Sign In Button -->
+            <button class="bg-brand px-4 py-2 rounded-lg text-sm font-semibold border-2 border-solid ">
+               <a href="sign_in">Sign In</a>
+            </button>
+         </div>
+        </nav>
+    
+      
+     </header>
+
+         <!-- Main Body of the Website -->
+     <main role="main_page"> 
+             <!-- Hero Section -->
+         <section role="hero">    
+            <div class="slider-container">
+               <div class="slide active" style="background-image: url('src/public/images/hero/AOT.jpg'); background-repeat:no-repeat ; background-size: cover; background-position: center; position: relative; height: 90vh; ">
+                     <div class="slide-content">
+                        <div class="content-wrapper">
+                           <div class="rating-section">
+                                 <span class="rating-badge">&#9733; 9.1</span>
+                                 <span class="episodes">28 Episodes</span>
+                                 <span class="year-badge">2023</span>
+                           </div>
+                           <h1 class="slide-title">Attack on Titan: Final Season</h1>
+                           <p class="slide-genre">Action &bull; Drama &bull; Fantasy</p>
+                           <p class="slide-description">The final battle for humanity's survival begins as Eren's true intentions are revealed in this epic conclusion to the series.</p>
+                           <div class="button-group">
+                                 <button class="btn btn-primary">&#9654; <a href="watch.html">Watch Now</a> </button>
+                                 <button class="btn btn-secondary">+ Add to List</button>
+                           </div>
+                        </div>
+                     </div>
+               </div>
+
+               <div class="slide">
+                     <div class="slide-content" style="background-image: url('src/public/images/hero/DS.jpg'); background-repeat:no-repeat ; background-size: cover; background-position: center; position: relative; height: 90vh; ">
+                        <div class="content-wrapper">
+                           <div class="rating-section">
+                                 <span class="rating-badge">&#9733; 8.9</span>
+                                 <span class="episodes">11 Episodes</span>
+                                 <span class="year-badge">2023</span>
+                           </div>
+                           <h1 class="slide-title">Demon Slayer: Swordsmith Village</h1>
+                           <p class="slide-genre">Action &bull; Adventure &bull; Supernatural</p>
+                           <p class="slide-description">Tanjiro ventures to the Swordsmith Village and faces powerful Upper Rank demons in an intense battle.</p>
+                           <div class="button-group">
+                                 <button class="btn btn-primary">&#9654; <a href="watch.html">Watch Now</a> </button>
+                                 <button class="btn btn-secondary">+ Add to List</button>
+                           </div>
+                        </div>
+                     </div>
+               </div>
+
+               <div class="slide">
+                     <div class="slide-content" style="background-image: url('src/public/images/hero/JK_2.jpg'); background-repeat:no-repeat ; background-size: cover; background-position: center; position: relative; height: 90vh; ">
+                        <div class="content-wrapper">
+                           <div class="rating-section">
+                                 <span class="rating-badge">&#9733; 9.0</span>
+                                 <span class="episodes">23 Episodes</span>
+                                 <span class="year-badge">2023</span>
+                           </div>
+                           <h1 class="slide-title">Jujutsu Kaisen Season 2</h1>
+                           <p class="slide-genre">Action &bull; Supernatural &bull; Dark Fantasy</p>
+                           <p class="slide-description">Witness the Hidden Inventory arc and the devastating Shibuya Incident in this thrilling season.</p>
+                           <div class="button-group">
+                                 <button class="btn btn-primary">&#9654; <a href="watch.html">Watch Now</a> </button>
+                                 <button class="btn btn-secondary">+ Add to List</button>
+                           </div>
+                        </div>
+                     </div>
+               </div>
+
+               <div class="slide">
+                     <div class="slide-content" style="background-image: url('src/public/images/hero/MHA.jpg'); background-repeat:no-repeat ; background-size: cover; background-position: center; position: relative; height: 90vh; ">
+                        <div class="content-wrapper">
+                           <div class="rating-section">
+                                 <span class="rating-badge">&#9733; 8.7</span>
+                                 <span class="episodes">21 Episodes</span>
+                                 <span class="year-badge">2024</span>
+                           </div>
+                           <h1 class="slide-title">My Hero Academia Season 7</h1>
+                           <p class="slide-genre">Action &bull; Superhero &bull; Shounen</p>
+                           <p class="slide-description">The final war arc brings heroes and villains together for an epic showdown that will determine the fate of society.</p>
+                           <div class="button-group">
+                                 <button class="btn btn-primary">&#9654; <a href="watch.html">Watch Now</a> </button>
+                                 <button class="btn btn-secondary">+ Add to List</button>
+                           </div>
+                        </div>
+                     </div>
+               </div>
+
+               <button class="nav-arrow prev" onclick="prevSlide()">&#8249;</button>
+               <button class="nav-arrow next" onclick="nextSlide()">&#8250;</button>
+
+               <div class="dots-container">
+                     <button class="dot active" onclick="goToSlide(0)"></button>
+                     <button class="dot" onclick="goToSlide(1)"></button>
+                     <button class="dot" onclick="goToSlide(2)"></button>
+                     <button class="dot" onclick="goToSlide(3)"></button>
+               </div>
+            </div>
+        </section>
+
+        <!-- For space purposes only -->
+        <br><br>
+
+        <!-- Trending Anime Section -->
+       <Section role="trending_anime">
+           <!-- Trending Anime Section -->
+      <div class="container mx-auto px-6 py-12">
+        <div class="mb-8 flex items-center justify-between">
+            <h2 class="text-3xl font-bold flex items-center gap-3">
+                <span class="brand-orange text-4xl">🔥</span>
+                Trending Anime
+            </h2>
+            <div class="flex gap-2">
+                <button onclick="scrollLeft('trendingContainer')" class="nav-btn w-10 h-10 rounded-full flex items-center justify-center text-white">
+                    ❮
+                </button>
+                <button onclick="scrollRight('trendingContainer')" class="nav-btn w-10 h-10 rounded-full flex items-center justify-center text-white">
+                    ❯
+                </button>
+            </div>
+        </div>
+
+        <div id="trendingContainer" class="scroll-container flex gap-6 pb-4">
+            <!-- Trending anime cards will be inserted here -->
+        </div>
+      </div>
+       </Section>  
+      
+        <!-- For space purposes only -->
+        <br><br>
+
+        <!-- Popular Anime Section -->
+    <section role="Popular_Anime_Section">
+
+         <div class="container mx-auto px-6 py-12">
+            <div class="mb-8 flex items-center justify-between">
+                  <h2 class="text-3xl font-bold flex items-center gap-3">
+                     <span class="brand-orange text-4xl">★</span>
+                     Popular Anime
+                  </h2>
+
+                  <!-- For space purposes only -->
+                  <br><br>
+
+                  <div class="flex gap-2">
+                     <button onclick="scrollLeft()" class="nav-btn w-10 h-10 rounded-full flex items-center justify-center text-white">
+                        ❮
+                     </button>
+                     <button onclick="scrollRight()" class="nav-btn w-10 h-10 rounded-full flex items-center justify-center text-white">
+                        ❯
+                     </button>
+                  </div>
+            </div>
+
+            <div id="scrollContainer" class="scroll-container flex gap-6 pb-4">
+                  <!-- Anime cards will be inserted here -->
+            </div>
+         </div>
+
+    </section>
+
+    <!-- For space purposes only -->
+        <br><br>
+
+    <!-- New Anime Section -->
+    <section>
+    <div class="container mx-auto px-6 py-12">
+        <div class="mb-8 flex items-center justify-between">
+            <h2 class="text-3xl font-bold flex items-center gap-3">
+                <span class="brand-orange text-4xl">✨</span>
+                New Anime
+            </h2>
+            <div class="flex gap-2">
+                <button onclick="scrollLeft('newContainer')" class="nav-btn w-10 h-10 rounded-full flex items-center justify-center text-white">
+                    ❮
+                </button>
+                <button onclick="scrollRight('newContainer')" class="nav-btn w-10 h-10 rounded-full flex items-center justify-center text-white">
+                    ❯
+                </button>
+            </div>
+        </div>
+
+        <div id="newContainer" class="scroll-container flex gap-6 pb-4">
+            <!-- New anime cards will be inserted here -->
+        </div>
+    </div>
+    </section>
+          
+     </main>
+
+     <!-- For space purposes only -->
+        <br><br><br><br>
+
+
+  <!-- FOOTER -->
+  
+   <footer>
+      <div class="footer-container">
+
+         <div class="brand">
+            <h2>ANIME<span>HUB</span></h2>
+             <p>Stream your favorite anime anytime. Subbed & Dubbed episodes in HD quality.</p>
+         </div>
+
+         <div class="footer-box">
+            <h3>Quick Links</h3>
+              <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Popular</a></li>
+               <li><a href="#">Genres</a></li>
+               <li><a href="#">New Episodes</a></li>
+              </ul>
+         </div>
+
+
+         <div class="footer-box">
+            <h3>Support</h3>
+              <ul>
+               <li><a href="#">Help Center</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+               <li><a href="#">Terms of Use</a></li>
+               <li><a href="#">Contact</a></li>
+              </ul>
+         </div>
+
+
+         <div class="footer-box newsletter">
+            <h3>Stay Updated</h3>
+              <p>Get notified when new anime episodes drop.</p>
+            <form>
+              <input type="email" placeholder="Your email">
+              <button>Join</button>
+            </form>
+         </div>
+
+
+      </div>
+
+
+      <div class="footer-bottom">
+          <div class="footer-bottom-content">
+            <p>© 2025 AnimeFlix. All rights reserved.</p>
+          <div class="socials">
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Discord</a>
+          </div>
+          </div>
+     </div>
+
+
+   </footer>
+
+  <script src="src/script.js"></script>     
+</body>
+</html>
